@@ -35,28 +35,31 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col col-auto">
+      <div class="col">
         <table class="table table-striped">
           <thead class="thead-light">
             <tr>
               <th scope="col">#</th>
               <th scope="col">상품명</th>
               <th scope="col">종류</th>
+              <th scope="col">수량</th>
               <th scope="col">상태</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <td>상품1</td>
+              <td>의류</td>
+              <td>1</td>
+              <td>등록됨</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td>상품2</td>
+              <td>장난감</td>
+              <td>3</td>
+              <td>기부예약</td>
             </tr>
           </tbody>
         </table>
