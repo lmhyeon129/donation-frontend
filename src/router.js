@@ -5,6 +5,8 @@ import RegisterCorp from './views/RegisterCorp.vue'
 import RegisterUser from './views/RegisterUser.vue'
 import ProductAdd from './views/ProductAdd.vue'
 import ProductList from './views/ProductList.vue'
+import RequestDonation from './views/RequestDonation.vue'
+import ProductManage from './views/ProductManage.vue'
 
 Vue.use(Router)
 
@@ -41,6 +43,16 @@ export default new Router({
       path: '/productList',
       name: 'productList',
       component: ProductList
-    }
+    },
+    {
+      path: '/requestDonation',
+      name: 'requestDonation',
+      component: RequestDonation
+    },
+    {
+      path: '/productManage',
+      name: 'productManage',
+      component: ProductManage
+    },
   ]
 })
